@@ -1,0 +1,39 @@
+<!doctype html>
+<html> 
+ <head>
+    <link rel="stylesheet" href="style.css">
+ </head> 
+ <body bgcolor="black"> 
+  <form name="cal"> 
+   <input type="text" value="0" name="display" class="screen"> 
+  </form> 
+  <br> 
+  <input type="button" class="nbt" value="AC" onclick="cal.display.value=''"> 
+  <input type="button" class="nbt" value="+/-" onclick="cal.display.value+='-'"> 
+  <input type="button" class="nbt" value="%" onclick="cal.display.value+='%'"> 
+  <br> 
+  <input type="button" class="tbn" value="7" onclick="cal.display.value+='7'"> 
+  <input type="button" class="tbn" value="8" onclick="cal.display.value+='8'"> 
+  <input type="button" class="tbn" value="9" onclick="cal.display.value+='9'"> 
+  <br> 
+  <input type="button" class="tbn" value="4" onclick="cal.display.value+='4'"> 
+  <input type="button" class="tbn" value="5" onclick="cal.display.value+='5'"> 
+  <input type="button" class="tbn" value="6" onclick="cal.display.value+='6'"> 
+  <br> 
+  <br> 
+  <input type="button" class="tbn" value="1" onclick="cal.display.value+='1'"> 
+  <input type="button" class="tbn" value="2" onclick="cal.display.value+='2'"> 
+  <input type="button" class="tbn" value="3" onclick="cal.display.value+='3'"> 
+  <br> 
+  <input type="button" class="zer" value="0" onclick="cal.display.value+='0'"> 
+  <input type="button" class="tbn" value="." onclick="cal.display.value+='.'"> 
+  <br> 
+  <br> 
+  <br> 
+  <input type="button" class="btn" value="+" onclick="cal.display.value+='+'"> 
+  <input type="button" class="btn" value="-" onclick="cal.display.value+='-'"> 
+  <input type="button" class="btn" value="÷" onclick="cal.display.value+='/'"> 
+  <input type="button" class="btn" value="×" onclick="cal.display.value+='*'"> 
+  <input type="button" class="btn" value="=" onclick="cal.display.value= eval(cal.display.value)"> 
+ </body>
+</html>

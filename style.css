@@ -1,0 +1,53 @@
+.btn{
+    border-radius:100px;
+    background:orange;
+    height:200px;
+    width:200px;
+    font-size:100px;
+    color:white;
+    display:block;
+    position:relative;
+    left:650px;
+    bottom:1050px;
+    
+   }
+   
+   .screen{
+     height:500px;
+     width:900px;
+     background:black;
+     font-size:100px;
+     color:white;
+     
+   }
+   .zer{
+     
+   border-radius:100px;
+    background:DimGray;
+    height:200px;
+    width:400px;
+    font-size:100px;
+    color:white;
+    display:inline;
+   }
+   
+   
+   
+   .tbn{
+   border-radius:100px;
+    background:DimGray;
+    height:200px;
+    width:200px;
+    font-size:100px;
+    color:white;
+    display:inline;
+   }
+   .nbt{
+     border-radius:100px;
+    background:#cccccc;
+    height:200px;
+    width:200px;
+    font-size:100px;
+    color:black;
+    display:inline;
+   }
